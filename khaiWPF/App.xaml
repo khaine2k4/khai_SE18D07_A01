@@ -1,0 +1,9 @@
+﻿<Application x:Class="khaiWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:khaiWPF"
+             StartupUri="LoginWindow.xaml">
+    <Application.Resources>
+        <local:BookingStatusConverter x:Key="BookingStatusConverter"/>
+    </Application.Resources>
+</Application>
